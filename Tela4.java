@@ -44,7 +44,7 @@ public class Tela4 extends javax.swing.JPanel {
 
         jLabel7.setText("Vagas Disponíveis:");
 
-        jTextField1.setText("jTextField1");
+        jTextField1.setText("Digite o nome");
 
         jToggleButton4.setText("Voltar");
         jToggleButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -67,9 +67,9 @@ public class Tela4 extends javax.swing.JPanel {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
-        jTextField7.setText("jTextField1");
+        jTextField7.setText("Digite o código");
 
-        jTextField6.setText("jTextField6");
+        jTextField6.setText("00");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
@@ -158,8 +158,12 @@ public class Tela4 extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jToggleButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jToggleButton4ActionPerformed
+    java.awt.Window window = javax.swing.SwingUtilities.getWindowAncestor(this);
+    if (window != null) {
+        window.dispose();
+    }
+    // TODO add your handling code here:
+}//GEN-LAST:event_jToggleButton4ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
         // TODO add your handling code here:
@@ -183,4 +187,18 @@ public class Tela4 extends javax.swing.JPanel {
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToggleButton jToggleButton4;
     // End of variables declaration//GEN-END:variables
+}
+// Apenas uma classe pública por arquivo!
+class Tela4Main {
+    public static void main(String[] args) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                javax.swing.JFrame frame = new javax.swing.JFrame("Tela4");
+                frame.setContentPane(new Tela4());
+                frame.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
+                frame.pack();
+                frame.setVisible(true);
+            }
+        });
+    }
 }
