@@ -161,7 +161,10 @@ public class Tela7 extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jToggleButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton4ActionPerformed
-        // TODO add your handling code here:
+        java.awt.Window window = javax.swing.SwingUtilities.getWindowAncestor(this);
+    if (window != null) {
+        window.dispose();
+    }// TODO add your handling code here:
     }//GEN-LAST:event_jToggleButton4ActionPerformed
 
 
