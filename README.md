@@ -105,8 +105,6 @@ Prioridade: Importante
 
 Representação dos atores e casos de uso para melhor compreensão das funcionalidades.
 
-![Caso de Uso](https://drive.google.com/file/d/1cvUghls58Y7_8ie3QQuo-voDWbPDzHKx/view?usp=drive_link)
-
 **5.2 Diagrama de Classes**
 
 Estrutura das classes do sistema, atributos, métodos e relações.
