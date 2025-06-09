@@ -105,24 +105,42 @@ Prioridade: Importante
 
 Representação dos atores e casos de uso para melhor compreensão das funcionalidades.
 
+![casos](https://github.com/user-attachments/assets/44f0e261-667e-4a27-be9b-28bb65289968)
+
 **5.2 Diagrama de Classes**
 
 Estrutura das classes do sistema, atributos, métodos e relações.
+
+![Classes](https://github.com/user-attachments/assets/4b50a7fb-1f4d-45cb-a4eb-735bc29767b7)
 
 **5.3 Diagrama de Sequência**
 
 Fluxo de execução das funcionalidades mostrando a interação entre objetos.
 
+![Aluno](https://github.com/user-attachments/assets/80b189ef-d51f-4738-9a05-35bcf30ec8d1)
+
+![Prof](https://github.com/user-attachments/assets/70d96d0f-dc12-445b-b7fe-11d24f6cd905)
+
 **5.4 Diagrama Lógico**
 
 Modelo de dados: tabelas, chaves e relacionamentos para o banco de dados.
 
+![logico](https://github.com/user-attachments/assets/9748ce1a-0bd0-4770-b0cf-4b6f82b5371f)
 
 **6. Telas do Sistema**
 
 Importância das Telas
 As telas de um sistema são a interface entre o usuário e o sistema. Devem ser claras, simples e funcionais para proporcionar uma boa experiência.
 
+![Image](https://github.com/user-attachments/assets/324ecae1-a571-427b-9807-a265e40577da)
+
+![Image](https://github.com/user-attachments/assets/7618b12b-3047-4ac8-8a7e-a738a02adca7)
+
+![Image](https://github.com/user-attachments/assets/65e80ccc-897e-44d7-8155-570f6662a9d1)
+
+![Image](https://github.com/user-attachments/assets/62a75042-f324-4e5f-ab1a-9691d965c4b5)
+
+![Image](https://github.com/user-attachments/assets/223d7c35-e646-4411-acb5-51500dcfdb6a)
 
 **7. Tecnologias Utilizadas**
 
